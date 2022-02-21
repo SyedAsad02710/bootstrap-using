@@ -1,0 +1,59 @@
+
+.home{
+    margin-top: 80px;
+    font-size: 20px;
+}
+.srch{
+    margin-top: 80px;
+    font-size: 20px;
+}
+
+
+.class1{
+   height: 60vh;
+   width: 100%;
+   display: flex;
+ justify-content: center;
+ justify-content: space-around;
+   align-items: center;
+   box-sizing: border-box;
+   margin-bottom: 5px;  
+}
+.sib1{
+    width: 50%;
+    padding: 0;
+    text-align: center;
+  
+
+    
+}
+.sib1 img{
+    height: 60vh;
+    width: 100%;
+}
+
+
+
+@media (max-width:768px ){
+
+
+    .class1{
+       display: block;
+     }
+     .sib1{
+        width: 100%;
+    }
+    .sib1 img{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-width:468px ){
+    .sib1 img{
+      padding: 10%;
+      box-sizing: border-box;
+    }
+
+
+     
+}
